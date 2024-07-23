@@ -5,10 +5,11 @@
     align-items: center; /* Centra los elementos horizontalmente */
     text-align: center;
     height: 100dvh;
-    min-height: 500px;
 
 }
 
 .home {
-    max-height: 250px;
+    margin-top: 50px;
+    max-width: 450px;
+    max-height: 450px;
 }

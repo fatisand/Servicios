@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './HomeStyle.module.css';
 import arqui1 from '/src/assets/arqui1.jpg';
 import arqui2 from '/src/assets/arqui2.jpg';
+import arqui3 from '/src/assets/arqui3.jpg';
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
@@ -29,6 +30,9 @@ const Home = () => {
           </div>
           <div className='img'>
             <img src={arqui2} alt="Foto Arquitectura 2" className={styles.home} />
+          </div>
+          <div className='img'>
+            <img src={arqui3} alt="Foto Arquitectura 3" className={styles.home} />
           </div>
         </Carousel>
     </section>
