@@ -1,0 +1,42 @@
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: fit-content;
+    margin-bottom: 20px;
+    padding: 50px 90px 0 90px;
+}
+
+/* Estilos para las imágenes */
+img {
+    max-width: 400px;
+    align-self: center;
+    border-radius: 20px;
+    transition: transform 200ms ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para el contenedor de servicios */
+.ServiciosContainer {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+/* Estilos responsivos para pantallas grandes */
+@media (min-width: 800px) {
+    .ServiciosContainer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0 30px;
+        gap: 50px;
+    }
+}

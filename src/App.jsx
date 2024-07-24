@@ -4,6 +4,7 @@ import Servicios from '../src/componentes/Servicios/Servicios';
 import Contacto from '../src/componentes/Contacto/Contacto';
 import Footer from '../src/componentes/Footer/Footer';
 import Navbar from './componentes/Navbar/Navbar';
+import SobreNosotros from './componentes/SobreNosotros/SobreNosotros';
 function App() {
 
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <Home/>
       <Servicios/>
+      <SobreNosotros/>
       <Contacto/>
       <Footer/>
     

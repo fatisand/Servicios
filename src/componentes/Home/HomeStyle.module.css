@@ -5,12 +5,12 @@
     align-items: center; /* Centra los elementos horizontalmente */
     text-align: center;
     height: 100dvh;
-    padding: 0 50px;
+    padding: 40px 50px;
     line-height: 1.6; 
 }
 
 .home {
-    margin: 50px;
+    margin: 40px;
     max-width: 500px;
     max-height: 500px
 }
@@ -22,7 +22,7 @@
   
   .info {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   
   .carouselContainer {

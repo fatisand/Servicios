@@ -14,7 +14,7 @@ const Home = () => {
     <div>
       <Navbar/>
       <section id='home' className={styles.container}>
-        <h1 className={styles.sectionTitle}>Arquitectura y Diseño</h1>
+        <h1 className='sectionTitle'>Arquitectura y Diseño</h1>
         <div className={styles.info}>
           <h2>
             En ArquitecturaCreativa, creemos que la arquitectura no se trata solo de edificios, sino de crear espacios que inspiran y mejoran la vida de quienes los habitan. Este fragmento establece la visión de la firma y la importancia de la arquitectura en la mejora de la vida de las personas. 

@@ -9,14 +9,14 @@ const Navbar = () => {
         <img src={logo} alt="Logo" style={{ height: '65px' }} />
       </a>
       <ul className={styles['navbar-menu']}>
-        <li className={styles['navbar-item']}>
-          <Link to="about" className={styles['navbar-link']} smooth={true} duration={500}>
-            Sobre Nosotros
+      <li className={styles['navbar-item']}>
+          <Link to="servicios" className={styles['navbar-link']} smooth={true} duration={500}>
+            Servicios
           </Link>
         </li>
         <li className={styles['navbar-item']}>
-          <Link to="servicios" className={styles['navbar-link']} smooth={true} duration={500}>
-            Servicios
+          <Link to="sobrenosotros" className={styles['navbar-link']} smooth={true} duration={500}>
+            Sobre Nosotros
           </Link>
         </li>
         <li className={styles['navbar-item']}>

@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align: center;
+    height: 85dvh;
+    padding: 20px;
+    line-height: 1.6; 
+}
+  strong {
+    color: #333; /* Cambia este color según el diseño */
+  }
+  

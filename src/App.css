@@ -3,6 +3,7 @@
   --btn-color: #002c65;
   --btn-text-color: #fff;
   --text-color: #222;
+  --text-colorh1: #556;
   --form-text-color: #555;
   --footer-text-color: #888;
 }
@@ -22,15 +23,14 @@ img {
   width: 100%; /* Asegura que la imagen ocupe el ancho del contenedor */
   object-fit: cover; /* Asegura que la imagen cubra el contenedor sin distorsión */
 }
-
-h1, h2, h3, p {
+ h2, h3, p {
   color: var(--text-color);
   margin: 0;
   padding-left: 0;
 }
 
 h2, h3, p {
-  font-family: 'Raleway', monospace;
+  font-family: 'Roboto', monospace;
 }
 
 h1, h2 {
@@ -42,8 +42,9 @@ h2, h3 {
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
-  font-size: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30x;
+  color: var(--text-colorh1);
 }
 
 p {
@@ -71,7 +72,7 @@ p {
     font-size: 24px;
   }
   p {
-    font-size: 20px;
+    font-size: 22px;
   }
   .sectionTitle {
     margin-bottom: 60px;
