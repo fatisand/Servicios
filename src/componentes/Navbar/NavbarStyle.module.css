@@ -40,4 +40,17 @@
     padding: 100px 20px;
     margin-top: 60px;
   }
-  
+  /* Media Queries para dispositivos móviles */
+@media (max-width: 768px) {
+
+  .navbar-menu {
+    display: none; /* Oculta el menú por defecto */
+    flex-direction: column;
+    position: absolute;
+    top: 50px; /* Debajo de la navbar */
+    left: 0;
+    width: 90%;
+    background-color: #556;
+  }
+
+}

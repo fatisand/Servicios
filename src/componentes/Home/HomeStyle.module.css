@@ -1,46 +1,27 @@
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; /* Centra los elementos horizontalmente */
-    text-align: center;
-    height: 100dvh;
-    padding: 40px 50px;
-    line-height: 1.6; 
-}
 
-.home {
-    margin: 40px;
-    max-width: 500px;
-    max-height: 500px
-}
+/* Media Queries para dispositivos pequeños (móviles y tablets) */
+@media (max-width: 1024px) {
+  .container {
+    padding: 20px 30px; /* Reduce padding para dispositivos más pequeños */
+  }
 
   .sectionTitle {
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: 2rem; /* Reduce el tamaño de la fuente */
   }
-  
+
   .info {
-    text-align: center;
-    margin-bottom: 15px;
+    max-width: 100%; /* Permite que el texto ocupe más espacio */
   }
-  
-  .carouselContainer {
-    display: flex;
-    align-items: center;
-  }
-  
+
   .quote {
-    flex: 2;
-    margin: 50px;
-    font-size: 1.3rem;
-    text-align: left;
-    border: 1px solid white; /* Borde fino */
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para el efecto 3D */
-    padding: 20px; /* Espacio interno para que el contenido no esté pegado al borde */
+    font-size: 1.1rem; /* Reduce el tamaño de la fuente para citas */
+    margin: 10px 0; /* Ajusta el margen */
+    max-width: 90%; /* Permite que la cita se ajuste mejor en pantallas pequeñas */
+  }
+
+  .carousel img {
+    max-width: 100%; /* Asegura que las imágenes se ajusten al contenedor */
+    border-radius: 5px; /* Ajusta el borde redondeado */
+  }
 }
 
-  .carousel {
-    flex: 3;
-  }
-  

@@ -5,7 +5,7 @@ const SobreNosotros = () => {
   return (
     <>
       <section id='sobrenosotros' className={styles.container}>
-        <h1 className={styles.title}>Sobre Nosotros</h1>
+        <h1 className='sectionTitle'>Sobre Nosotros</h1>
         <div className={styles.parrafo}>
         <p>
           En <strong>Arquitectura Creativa</strong>, nos especializamos en transformar tus ideas en realidades sorprendentes. Fundada con la visión de revolucionar el mundo de la arquitectura, nuestra consultoría se dedica a ofrecer soluciones innovadoras y personalizadas que combinan funcionalidad, estética y sostenibilidad.

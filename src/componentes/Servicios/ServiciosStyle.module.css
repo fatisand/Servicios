@@ -30,8 +30,20 @@ img:hover {
 }
 
 
+@media (min-width: 400px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: fit-content;
+        margin-bottom: 20px;
+        padding: 0 90px 0 90px;
+    }
+}
+
 /* Estilos responsivos para pantallas grandes */
 @media (min-width: 800px) {
+
     .ServiciosContainer {
         flex-direction: row;
         flex-wrap: wrap;

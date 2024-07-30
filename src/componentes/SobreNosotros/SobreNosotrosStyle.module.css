@@ -12,3 +12,11 @@
     color: #333; /* Cambia este color según el diseño */
   }
   
+  @media (min-width: 400px){
+    .container{
+      padding: 0px 20px;
+      width: 90%;
+      align-items: center; /* Centra los elementos horizontalmente */
+      text-align: center;
+    }
+  }
