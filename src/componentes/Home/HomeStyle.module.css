@@ -1,27 +1,53 @@
+.container {
+  padding: 50px 0px;
+  justify-content: center;
+  text-align: center;
+}
 
-/* Media Queries para dispositivos pequeños (móviles y tablets) */
+.sectionTitle {
+  font-size: 2rem;
+}
+
+.info {
+  max-width: 100%; /* Asegura que el texto ocupe todo el ancho disponible */
+}
+
+.quote {
+  font-size: 1.1rem;
+  margin: 120px 130px;
+  flex: 1;
+  background: white; /* Fondo blanco para el contraste */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), 
+              6px 6px 10px rgba(0, 0, 0, 0.1); /* Sombra múltiple para efecto 3D */
+  position: relative;
+  z-index: 1;
+}
+
+.carouselContainer {
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px; /* Espacio entre la cita y el carrusel */
+}
+
+.carousel {
+  max-width: 50%;
+  flex: 1;
+}
+
 @media (max-width: 1024px) {
-  .container {
-    padding: 20px 30px; /* Reduce padding para dispositivos más pequeños */
+  .carouselContainer {
+    flex-direction: column;
+    align-items: center;
   }
 
-  .sectionTitle {
-    font-size: 2rem; /* Reduce el tamaño de la fuente */
+  .quote, .carousel {
+    max-width: 100%;
   }
 
   .info {
-    max-width: 100%; /* Permite que el texto ocupe más espacio */
-  }
-
-  .quote {
-    font-size: 1.1rem; /* Reduce el tamaño de la fuente para citas */
-    margin: 10px 0; /* Ajusta el margen */
-    max-width: 90%; /* Permite que la cita se ajuste mejor en pantallas pequeñas */
-  }
-
-  .carousel img {
-    max-width: 100%; /* Asegura que las imágenes se ajusten al contenedor */
-    border-radius: 5px; /* Ajusta el borde redondeado */
+    max-width: 100%;
   }
 }
-
