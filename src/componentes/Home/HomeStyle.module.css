@@ -2,6 +2,8 @@
   padding: 50px 0px;
   justify-content: center;
   text-align: center;
+   height: 100vh;             /* IMPORTANTE: ocupa toda la pantalla */
+
 }
 
 .sectionTitle {
@@ -29,7 +31,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  gap: 20px; /* Espacio entre la cita y el carrusel */
+  gap: 10px; /* Espacio entre la cita y el carrusel */
 }
 
 .carousel {

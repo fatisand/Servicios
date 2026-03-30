@@ -17,12 +17,12 @@ const Home = () => {
         <h1 className='sectionTitle'>Arquitectura y Diseño</h1>
         <div className={styles.info}>
           <h2>
-            En ArquitecturaCreativa, creemos que la arquitectura no se trata solo de edificios, sino de crear espacios que inspiran y mejoran la vida de quienes los habitan. Este fragmento establece la visión de la firma y la importancia de la arquitectura en la mejora de la vida de las personas. 
+            En ArtiFact, creemos que la arquitectura no se trata solo de edificios, sino de crear espacios que inspiran y mejoran la vida de quienes los habitan. Este fragmento establece la visión de la firma y la importancia de la arquitectura en la mejora de la vida de las personas. 
           </h2>
         </div>
         <div className={styles.carouselContainer}> 
-          <p className={styles.quote}>LA ARQUITECTURA PODRÍA DESCRIBIRSE COMO UNA DE LAS ACTIVIDADES CULTURALES MÁS COMPLEJAS E IMPORTANTES DEL PLANETA <br/> - Yvonne Farrell <br/><br/>
-          EL HOMBRE NO PUEDE CREAR SIN DESTRUIR SIMULTANEAMENTE. - Alvar Aalto
+          <p className={styles.quote}>“La arquitectura es el punto de partida del que quiera llevar a la humanidad hacia un porvenir mejor.” 
+          — Le Corbusier
           </p>
           <Carousel
             showThumbs={false}

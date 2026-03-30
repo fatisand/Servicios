@@ -2,10 +2,11 @@
 .container {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    text-align: justify;
     width: fit-content;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     padding: 50px 90px 0 90px;
+    
 }
 
 /* Estilos para las imágenes */
@@ -22,11 +23,11 @@ img:hover {
 
 /* Estilos para el contenedor de servicios */
 .ServiciosContainer {
-    margin-top: 30px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 30px;
+    gap: 40px;
 }
 
 

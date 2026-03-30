@@ -14,7 +14,7 @@ const Servicios = () => {
     <section id='servicios' className={styles.container}>
       <h1 className='sectionTitle'>Servicios</h1>
       <p>
-        En <strong>Arquitectura Creativa</strong> te ofrecemos una variedad de servicios especializados diseñados para satisfacer tus necesidades en todas las etapas del proceso de construcción y desarrollo de proyectos arquitectónicos.
+       En ArtiFact entendemos que la arquitectura va más allá de levantar edificios; se trata de diseñar espacios que transmiten inspiración y aportan bienestar a quienes los utilizan. Esta idea refleja nuestra visión como estudio y destaca el papel fundamental de la arquitectura en la calidad de vida de las personas.
       </p>
       <div className={styles.ServiciosContainer}>
         <ServiciosCard 
